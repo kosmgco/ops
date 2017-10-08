@@ -1,11 +1,16 @@
 .blogpost-title {
     color: #b90504;
-    font-family: 'Homemade Apple', cursive;
+    font-family: Monaco, 'Homemade Apple', cursive;
 }
 
 .article-info {
     padding: 0.5%;
     border-radius: 6px;
+}
+
+.article-header {
+    margin-top: 4rem;
+    margin-bottom: 10rem;
 }
 
 .label-default {
@@ -82,11 +87,12 @@ footer {
 }
 
 .home-post {
-    margin: 0 5% 0% 5%;
+/*    margin: 0 5% 0% 5%; */
     padding: 2% 2% 2% 2%;
     text-align: justify;
     /*border: dotted;*/
     border-width: thin;
+    margin-bottom: -35px;
 }
 
 a {
@@ -233,10 +239,29 @@ a {
     display: none;
 }
 
+
+@media (min-width: 0px){
+    .blogpost-date {
+        display: none;
+    }
+
+    .home-post {
+        margin-bottom: -25px;
+    }
+}
+
+
 /* Larger than phone */
 @media (min-width: 550px) {
     .header {
         margin-top: 10rem;
+    }
+
+    .blogpost-date {
+        display: none;
+    }
+    .home-post {
+        margin-bottom: -35px;
     }
 
     .value-props {
@@ -276,6 +301,10 @@ a {
     /* Navbar */
     .navbar + .docs-section {
         border-top-width: 0;
+    }
+
+    .blogpost-date {
+        display: block;
     }
 
     .navbar,
