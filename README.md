@@ -8,10 +8,10 @@ a pelican theme
 
 ## Screenshots
 
-![index.jpg](http://statics.ooops.me/55085927fef1f3450c56b8b3fde0570d.jpg)
+![index.jpg](https://static.ooops.me/md-upload-1507429497963.png)
 
-![blog.jpg](http://statics.ooops.me/b3b11867226d38b137a4cabed847a8a0.jpg)
+![index.jpg](https://static.ooops.me/md-upload-1507429548134.png)
 
-![books.png](http://statics.ooops.me/3dc22d1e286a76e2cb4ad2a97884a1d6.png)
+![blog.jpg](https://static.ooops.me/md-upload-1507429571522.png)
 
-![content.jpg](http://statics.ooops.me/dc53385c65eec7d277ca9de525f0dfe9.jpg)
+![content.jpg](https://static.ooops.me/md-upload-1507429597010.png)
