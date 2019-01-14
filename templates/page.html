@@ -22,6 +22,10 @@
             </dl>
         </section>
         <br/><br/><br/>
+    {% elif page.title == 'NOT FOUND' %}
+        <section id="content">
+            {{ page.content }}
+        </section>
     {% else %}
         <section id="content">
             <header class="header">
